@@ -1,0 +1,110 @@
+Microsoft Windows [Version 10.0.19045.3086]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\GIT>git branch
+  main
+* week1
+
+D:\GIT>git checkout main
+Switched to branch 'main'
+M       New Text Document.txt
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+D:\GIT>git branch
+* main
+  week1
+
+D:\GIT>git checkout week1
+Switched to branch 'week1'
+M       New Text Document.txt
+
+D:\GIT>git branch
+  main
+* week1
+
+Microsoft Windows [Version 10.0.19045.3086]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\GIT>git branch
+  main
+* week1
+
+D:\GIT>git checkout main
+Switched to branch 'main'
+M       New Text Document.txt
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+D:\GIT>git branch
+* main
+  week1
+
+D:\GIT>git checkout week1
+Switched to branch 'week1'
+M       New Text Document.txt
+
+D:\GIT>git branch
+  main
+* week1
+
+D:\GIT>git checkout main
+Switched to branch 'main'
+M       New Text Document.txt
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+D:\GIT>git branch
+* main
+  week1
+
+D:\GIT>
+D:\GIT>git add .
+
+D:\GIT>git commit -m "First Article"
+[main 7bb18ff] First Article
+ 3 files changed, 12 insertions(+)
+ create mode 100644 Week 2.txt
+ create mode 100644 article.txt
+
+D:\GIT>git log
+commit 7bb18ffbf3623192ee5f0ada153a42a412827760 (HEAD -> main)
+Author: Aqdus <aqdusmalik070@gmail.com>
+Date:   Fri Jul 7 19:54:39 2023 +0500
+
+    First Article
+
+commit daf0f9580172addec9eff15f82bacd00c1b79a91 (week1)
+Author: Aqdus <aqdusmalik070@gmail.com>
+Date:   Fri Jun 16 08:07:50 2023 -0700
+
+    write in file1.txt
+
+commit a6e96751bcadf97458c5fbc249133cb8b6452850 (origin/main)
+Author: Aqdus <aqdusmalik070@gmail.com>
+Date:   Fri Jun 16 08:03:00 2023 -0700
+
+    write hello world in file1.txt
+
+commit 392389ec025383fc64b196f4e6f348423e0fcabd
+Author: Aqdus <aqdusmalik070@gmail.com>
+Date:   Fri Jun 16 07:40:31 2023 -0700
+
+    Committing File 1
+
+D:\GIT>
+
+
+D:\GIT> git add .
+
+D:\GIT>git checkout main
+Already on 'main'
+M       Week 2.txt
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+D:\GIT>git branch -d week1
+Deleted branch week1 (was daf0f95).
+
+D:\GIT>git branch
+* main
