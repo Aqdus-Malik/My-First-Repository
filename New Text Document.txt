@@ -181,4 +181,15 @@ D:\New folder>git log --oneline
 
 D:\New folder>
 
+Microsoft Windows [Version 10.0.19045.3086]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\New folder>git clone https://github.com/Aqdus-Malik/My-First-Repository.git
+Cloning into 'My-First-Repository'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
 D:\New folder>
