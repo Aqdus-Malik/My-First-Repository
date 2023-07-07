@@ -94,7 +94,7 @@ Date:   Fri Jun 16 07:40:31 2023 -0700
 
 D:\GIT>
 
-
+  branch delet
 D:\GIT> git add .
 
 D:\GIT>git checkout main
@@ -108,3 +108,41 @@ Deleted branch week1 (was daf0f95).
 
 D:\GIT>git branch
 * main
+
+
+
+Microsoft Windows [Version 10.0.19045.3086]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\GIT>git add .
+
+D:\GIT>git commit -m "First Article"
+[main 2ed872e] First Article
+ 1 file changed, 110 insertions(+)
+
+D:\GIT>git branch week1
+
+D:\GIT>git branch
+* main
+  week1
+
+D:\GIT>git checkout week1
+Switched to branch 'week1'
+M       article.txt
+
+D:\GIT>git branch
+  main
+* week1
+
+D:\GIT>git add .
+
+D:\GIT>git commit -m "its a wonder full day"
+[week1 a2f8988] its a wonder full day
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+D:\GIT>git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+D:\GIT>
